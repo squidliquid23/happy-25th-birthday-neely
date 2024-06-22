@@ -1,0 +1,29 @@
+			javascript
+-----------------------------------------------------------
+
+setting a value:
+
+var;
+let;
+const;
+
+-----------------------------------------------------------
+
+// how to comment //
+/* how to comment */
+
+-----------------------------------------------------------
+to identify names-  use A-Z, a-z, $, or _
+
+-----------------------------------------------------------
+two types of values in JS... fixed and variable.
+
+variables vs literals (fixed);
+
+literals are numbers that have a decimal or don't, strings that have " " or ' '
+
+variables store data: var, let, const
+
+-----------------------------------------------------------
+
+

@@ -1,0 +1,6 @@
+fix the formatting of the page. 
+Add content to the bday plans, loveletter and surprise html docs.
+
+see if you can add a password to enter the site.
+
+add time to display on the front page - a timer to see how long we have been dating from 01/01/2023

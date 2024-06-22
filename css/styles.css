@@ -1,0 +1,135 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/cursiveFont/Baletta-2OwRv.ttf)
+}
+
+.cursive {
+ font-size: larger;
+ font-family: myFirstFont;
+ color: red;
+/* width: 50%;
+ padding: 50%;
+ margin: auto; */
+ position: relative;
+}
+
+.cursive.darling {
+    font-size: larger;
+    font-family: myFirstFont;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.navbar.first {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    margin-left: 35%;
+    padding: 35px 30px 20px 30px !important; 
+    font-size: 20px !important;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    line-height: 1;
+    background-color: rgb(194, 72, 56);
+    color: whitesmoke;
+    font-family: myFirstFont;
+    justify-content: center;
+}
+
+.navbar.first.bday {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    margin-left: 35%;
+    padding: 35px 30px 20px 30px !important; 
+    font-size: 20px !important;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    line-height: 1;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-family: myFirstFont;
+    justify-content: center;
+}
+
+.navbar.gen {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 35px 30px 20px 30px !important; 
+    font-size: 20px !important;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    line-height: 1;
+    background-color: rgb(194, 72, 56);
+    color: whitesmoke;
+    font-family: myFirstFont;
+    justify-content: center;
+}
+
+.navbar.active{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 35px 30px 20px 30px !important; 
+    font-size: 20px !important;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    line-height: 1;
+    font-family: myFirstFont;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+.container {
+    height: 100vh;
+    background: ffe3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img {
+    width: 75%;
+    object-fit: cover;
+    height: 50%;
+    overflow: hidden;
+    
+}
+
+.container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    overflow: hidden;
+    
+}
+
+.intro{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    overflow: hidden;
+}
