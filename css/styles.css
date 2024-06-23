@@ -26,17 +26,65 @@
     background: lightpink;
     border: 7px dotted rgb(240, 101, 147);
     position: relative;
-    margin-left: -8px;
-    width: 99.6vw;
+    margin-left: -9px;
+    width: 99.5vw;
     margin-top: -8px;
+    
 
 }
+
+.pictures {
+    position: relative;
+    justify-content: center;
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(238, 120, 160);
+    margin-left: -8px;
+}
+
+.image1 {
+    position: relative;
+    margin-top: 4%;
+    margin-left: 1px;
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px rgb(197, 255, 61) solid;
+}
+.image4 {
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    margin-left: 1px;
+    border-radius: 30%;
+    border: 5px green solid;
+}
+.image3 {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px rgb(231, 231, 231) groove;
+    width: 15%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: -25%;
+}
+
+.image2 {
+    position: absolute;
+    border-radius: 10%;
+    border: 5px rgb(70, 37, 0) groove;
+    width: 47.5%;
+    height: 80%;
+    margin: 5.72% 0% 0% 26.67%;
+}
+
 
 .navbar.first {
     display: inline-block;
     margin-top: .5em;
     overflow: hidden;
-    margin-left: 45vw;
+    margin-left: 43vw;
     width: 8em;
     white-space: nowrap;
     text-decoration: none;
@@ -54,7 +102,7 @@
     display: inline-block;
     margin-top: .5em;
     overflow: hidden;
-    margin-left: 45vw;
+    margin-left: 43vw;
     width: 8em;
     white-space: nowrap;
     text-decoration: none;
@@ -132,45 +180,38 @@
     
 }
 
-.intro{
-    width: 100%;
-   
-    text-align: center;
-    top: 20%;
-    color: white;
-    font-size: 25px;
-    font-weight: 500;
+.intro{ 
     text-shadow: 3px 3px 5px rgb(255, 127, 223);
 }
 
 .intro p{
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 600;
     color:rgb(206, 37, 149);
-    margin-top: 30px;
+    margin-top: -20%;
+    margin-left: 0%;
+    white-space: nowrap;
     position: absolute;
+    font-family: myFirstFont;
 }
 
 .intro2{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    bottom: 20%;
-    color: white;
-    font-size: 25px;
-    font-weight: 500;
     text-shadow: 3px 3px 5px rgb(255, 127, 223);
+    font-size: 60px;
 }
 
+
 .intro2 h2{
-    font-size: 85px;
-    margin-bottom: 60px;
+    border-radius: 30%;
+    margin-top: 0%;
+    margin-left: 7%;
     font-weight: 500;
     font-style: italic;
     color: antiquewhite;
-    text-shadow: none;
-    position: relative;
-    
+    position: absolute;
+    white-space: nowrap;
+    font-family: myFirstFont;
+
 }
 
 .cont2 {
