@@ -13,13 +13,24 @@
  position: relative;
 }
 
-.cursive.darling {
+.cursive.darling p {
     font-size: larger;
     font-family: myFirstFont;
     color: red;
-    position: absolute;
-    top: 25%;
-    left: 45%;
+    position: relative;
+    margin-left: 3vw;
+    line-height: 400%;
+    text-transform:uppercase;
+    word-spacing: 300%;
+}
+
+.cursive.darling h1 {
+    font-size:xx-large;
+    font-family: myFirstFont;
+    color: red;
+    position: relative;
+    margin-top: 0;
+    margin-left: 40vw;
 }
 
 .navbar {
@@ -214,37 +225,49 @@
 
 }
 
-.cont2 {
-    height: 90vh;
-    background-color: hotpink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box{
     position: absolute;
-    overflow: hidden;
-    width: fit-content;
+    margin-left: 5%;
+    width: 200px;
+    height: 200px;
+    background: red;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    animation: animate 1.3s linear infinite;
+}
+
+.box:before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top: -50%;
+    border-radius: 200px;
 
 }
 
-.cont2 img{
-    width: 50%;
-    object-fit: cover;
-    height: 60%;
-    margin-bottom: 30%;
-    overflow: hidden;
-    border-radius: 15px;
+.box:after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    right: -50%;
+    border-radius: 200px;
 }
 
-.cont2 button {
-    background: blueviolet;
-    border: none;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor:grabbing;
+@keyframes animate{
+    0%{
+        transform: rotate(-45deg) scale(1.05);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.00);
+    }
+    100%{
+        transform: rotate(-45deg) scale(.9);
+    }
 }
-
 /*
     <script>
         let time = document.getElementById("current-time");
