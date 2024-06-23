@@ -52,35 +52,39 @@
 
 .navbar.first.love {
     display: inline-block;
-    margin-left: 35%;
-    padding: 35px 30px 20px 30px !important; 
-    font-size: 20px !important;
-
+    margin-top: .5em;
     overflow: hidden;
-    border: 3px blueviolet groove;
+    margin-left: 45vw;
+    width: 8em;
+    white-space: nowrap;
     text-decoration: none;
     line-height: 1;
     background-color: antiquewhite;
     color: blueviolet;
     font-family: myFirstFont;
-    justify-content: center;
+    padding: 35px 30px 20px 30px !important; 
+    font-size: 20px !important;
+    border: 3px blueviolet groove;
+    overflow: hidden;
 }
 
 .navbar.gen {
     display: inline-block;
-    width: auto;
-    margin: auto;
-    padding: 35px 30px 20px 30px !important; 
-    font-size: 20px !important;
-    border: 3px darkred solid;
+    margin-top: 10px;
     overflow: hidden;
-
+    margin-left: 0;
+    width: 5%;
+    text-align: center;
     text-decoration: none;
     line-height: 1;
+    padding: 35px 30px 20px 30px !important; 
+    border: 3px darkred solid;
+    font-size: 20px !important;
+    text-decoration: none;
+    line-height: 1;
+    font-family: myFirstFont;
     background-color: rgb(194, 72, 56);
     color: whitesmoke;
-    font-family: myFirstFont;
-    justify-content: center;
 }
 
 .navbar.active{
